@@ -4,7 +4,7 @@ const Schema = mongoose.Schema
 
 const profileDetailSchema = new Schema({
     name: { type: String, required: true },
-    age: { type: Number, required: true },
+    age: { type: Number, required: false },
     gender: {
         type: String,
         required: false,
